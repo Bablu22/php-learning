@@ -19,4 +19,6 @@ class Files
 }
 
 $file = new Files();
-$file->displayContent('text.txt');
+$file->displayContent(__DIR__ . '\text.txt');
+
+// $file->displayContent('C:\laragon\www\php\oop\text.txt'); 
